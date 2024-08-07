@@ -40,3 +40,33 @@ To run this application locally, follow these steps:
 To run the Streamlit application, use the following command:
 ```bash
 streamlit run app.py
+```
+## Price and Loan Prediction
+On this page, you can input the following details to get predictions:
+
+Area of the land (in sq ft)
+Land contour (flat, sloping, hilly)
+Distance from the road (in meters)
+Soil type (loamy, clay, sandy, silty)
+Farmer's annual income (in INR)
+Loan request amount (in INR)
+Click the "Predict" button to get the following predictions:
+
+Estimated land price
+Estimated loan value
+Estimated probability of loan approval
+Loan approval status
+Model Details
+Price Prediction Model
+
+## A Linear Regression model is used to predict the price of the land based on its characteristics. The input features for the model are:
+
+Area
+Distance from the road
+Income
+Land contour (encoded as dummy variables)
+Soil type (encoded as dummy variables)
+Loan Approval Model
+
+
+
