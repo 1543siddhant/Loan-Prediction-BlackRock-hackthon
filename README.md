@@ -45,11 +45,17 @@ streamlit run app.py
 On this page, you can input the following details to get predictions:
 
 Area of the land (in sq ft)
+
 Land contour (flat, sloping, hilly)
+
 Distance from the road (in meters)
+
 Soil type (loamy, clay, sandy, silty)
+
 Farmer's annual income (in INR)
+
 Loan request amount (in INR)
+
 Click the "Predict" button to get the following predictions:
 
 Estimated land price
