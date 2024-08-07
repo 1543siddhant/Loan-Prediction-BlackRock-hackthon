@@ -56,23 +56,40 @@ Farmer's annual income (in INR)
 
 Loan request amount (in INR)
 
-Click the "Predict" button to get the following predictions:
+## Click the "Predict" button to get the following predictions:
 
 Estimated land price
+
 Estimated loan value
+
 Estimated probability of loan approval
+
 Loan approval status
+
 Model Details
+
 Price Prediction Model
 
-## A Linear Regression model is used to predict the price of the land based on its characteristics. The input features for the model are:
+
+## A Linear Regression model is used to predict the price of the land based on its characteristics. 
+
+## The input features for the model are:
 
 Area
+
 Distance from the road
+
 Income
+
 Land contour (encoded as dummy variables)
+
 Soil type (encoded as dummy variables)
+
 Loan Approval Model
+
+## Contributing
+
+**Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.**
 
 
 
